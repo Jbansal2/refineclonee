@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --green: #1FAD66;
+  --indigo: #3333FF;
+  --grey-50: #F4F8FB;
+  --grey-500: #6C7793;
+  --alt-green: #26D97F;
+  --purple: #8000FF;
+  --grey-100: #EDF2F7;
+  --grey-600: #474E6B;
+  --cyan: #0FBDBD;
+  --pink: #ED5EC9;
+  --grey-200: #DEE5ED;
+  --grey-700: #303450;
+  --alt-cyan: #47EBEB;
+  --red: #FF4C4D;
+  --grey-300: #CFD7E2;
+  --grey-800: #1D1E30;
+  --blue: #0080FF;
+  --orange: #FF9933;
+  --grey-400: #A3ADC2;
+  --grey-900: #14141F;
+  --alt-blue: #6EB3F7;
+  --yellow: #FFBF00;
+}
+
+body {
+  background-color: var(--grey-900);
+}
+
+@keyframes borderAnimation {
+  0% {
+    border-color: transparent;
+  }
+
+
+  50% {
+    border-color: var(--green);
+  }
+
+  100% {
+    border-color: transparent;
+  }
+}
+
+.border-animate {
+  animation: borderAnimation 2s infinite;
+}
+
