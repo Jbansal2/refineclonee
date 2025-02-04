@@ -42,7 +42,7 @@ const About = () => {
     };
 
     return (
-        <div className=' h-screen mt-20   '>
+        <div className=' h-auto mt-20    '>
             <div className="content text-white flex  flex-col text-left ml-[130px]">
                 <h1 className='text-[35px]'>The <span className='text-[#47EBEB]'>sweet spot</span> between low-code and full-code.</h1>
                 <p className='mt-5'>Drag-and-drop tools shine initially but collapse under the <br /> weight of complexity. Refine offers comparable speed at <br /> the start and infinite scaling in the long run.</p>
@@ -61,7 +61,7 @@ const About = () => {
                                 {tabs.map((tab) => (
                                     <div
                                         key={tab.name}
-                                        className={` px-3 py-2 rounded-full w-35 text-white bg-[#14141F] }`}
+                                        className={` px-3 py-2 rounded-full w-35 text-center text-white bg-[#14141F] }`}
                                         onClick={() => TabClick(tab)}
                                     >
                                        {tab.name}
