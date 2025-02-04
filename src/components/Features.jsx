@@ -73,7 +73,7 @@ const Features = () => {
                 <div className="bottom-text flex justify-between mt-10 gap-70 items-center">
                     <div className="left text-left ">
                         <h1 className='text-[25px]'>Seamless connectivity</h1>
-                        <p className='mt-5 text-[#303450]'>Out-of-the box integrations for 15+ services including custom REST and GraphQL API’s.</p>
+                        <p className='mt-5 text-[#474E6B] mb-3'>Out-of-the box integrations for 15+ services including custom REST and GraphQL API’s.</p>
                     </div>
                     <div className=" flex justify-center  item-center right bg-[#9bc7c7] px-10 py-3 rounded-[25px]">
                         <button className=' text-[#0FBDBD]'>All integrations<i className="ri-arrow-left-circle-fill ml-2"></i></button>

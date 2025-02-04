@@ -7,6 +7,7 @@ import Crm from './components/Crm'
 import Company from './components/Company'
 import About from './components/About'
 import Features from './components/Features'
+import Animated from './components/Animated'
 
 function App() {
   
@@ -20,7 +21,7 @@ function App() {
      <Company/>
      <About/>
      <Features/>
-
+     <Animated/>
     </>
   )
 }
