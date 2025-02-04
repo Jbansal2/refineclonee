@@ -22,8 +22,9 @@ function App() {
      <About/>
      <Features/>
      <Animated/>
+
     </>
   )
 }
 
-export default App
+export default App;
