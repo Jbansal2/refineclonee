@@ -1,28 +1,27 @@
+import React from "react";
+import Comments from "./Comments";
+import Enterprise from "./Enterprise";
+import Footer from "./Footer";
+import Method from "./Method";
+import StatsSection from "./StatsSection";
 
-import './App.css'
-import Annousementbar from './components/Annousementbar'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Crm from './components/Crm'
-import Company from './components/Company'
-import About from './components/About'
-import Features from './components/Features'
-
-function App() {
-  
-
+const App = () => {
   return (
-    <>
-     <Annousementbar />
-     <Navbar/>
-     <Hero/>
-     <Crm/>
-     <Company/>
-     <About/>
-     <Features/>
 
-    </>
-  )
-}
+    <div className="min-h-screen flex flex-col">
+      <main className="flex-grow">
+        <div className="container mx-auto px-4 py-8">
+          <p className="text-center text-gray-600 mt-4">
+          </p>
+        </div>
+      </main>
+      <Enterprise/>
+      <StatsSection />
+      <Comments/>
+      <Method/>
+      <Footer/>
+    </div>
+  );
+};
 
-export default App
+export default App;
